@@ -1,5 +1,7 @@
 export default function ProductDetails( {params}: {
-    params: {productId: String}
+    params: {
+        productId: String;
+    };
 
 }){
     return(

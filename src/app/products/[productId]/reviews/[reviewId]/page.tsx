@@ -1,8 +1,11 @@
 export default function ReviewProductDetails( {params}: {
-    params: {reviewId: String}
+    params: {
+        productId: String;
+        reviewId: String;
+    };
 
 }){
     return(
-        <h2>Review of Product {params.reviewId}</h2>
+        <h2>Review {params.reviewId} of Product {params.productId}</h2>
     );
 }
